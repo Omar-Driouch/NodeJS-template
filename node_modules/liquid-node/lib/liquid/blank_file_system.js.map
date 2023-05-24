@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "blank_file_system.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "src/liquid/blank_file_system.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,MAAA,GAAS,OAAA,CAAQ,WAAR;;EAET,MAAM,CAAC,OAAP,GAAuB,MAAM,CAAC;IACf,yBAAA,GAAA;;8BAEb,gBAAA,GAAkB,SAAC,YAAD;aAChB,OAAO,CAAC,MAAR,CAAmB,IAAA,MAAM,CAAC,eAAP,CAAuB,yCAAvB,CAAnB;IADgB;;;;;AALpB"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "document.js",
+  "sourceRoot": "../..",
+  "sources": [
+    "src/liquid/document.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,MAAA;IAAA;;;EAAA,MAAA,GAAS,OAAA,CAAQ,WAAR;;EAET,MAAM,CAAC,OAAP,GAAuB,MAAM,CAAC;;;IAEf,kBAAC,QAAD;MAAC,IAAC,CAAA,WAAD;IAAD;;uBAGb,cAAA,GAAgB,SAAA;aACd;IADc;;uBAKhB,yBAAA,GAA2B,SAAA,GAAA;;;;KAVkB,MAAM,CAAC;AAFtD"
+}

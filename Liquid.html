@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome </title>
+    <style>
+        .Dcenter{
+            margin-left: 30%;
+            margin-right: 30%;
+            text-align: center;
+            
+        }
+        body {
+             background-color: #bab3b3;
+              margin: auto;
+              padding: auto;
+        }
+       
+        @media only screen and (max-width: 640px) {
+        body, img {
+              
+             size: 12px;
+             text-align: center;
+          
+            
+        }
+
+
+       .Dcenter{
+            font-size: smaller;
+            margin-left: 0%;
+            margin-right: 0%;
+            text-align: center;
+          
+        }
+
+      
+        }
+
+        
+       
+    </style>
+</head>
+<body>
+<div style="background-color: rgb(210, 210, 210);width: 100%;">
+
+
+    <div class="Dcenter" style="background-color: white;">
+        <div style="margin-left: auto;margin-right:auto;text-align: center;">
+            <img style="height: 0px; width: 0px;" src="https://cdn.tripadvisor.com/img2/email/viator_logo_v2.png" alt="">
+        </div>
+        <div style="margin-left: auto;margin-right:auto;text-align: center;">
+            <strong><h1 style="font-family: Arial, Helvetica, sans-serif;">{{ geo_name }}</h1></strong>
+             
+        </div>
+        <div style=" margin-left: auto;margin-right:auto;text-align: center;">
+            <img style="height: 100%; max-width: 100%;" src="{{ geo_image }}" alt="">
+        </div>
+        <div  style="margin-left: 2px;margin-right:auto; text-align: left; font-size: 25px; padding:1em;
+        font-family: Arial, Helvetica, sans-serif;">   
+            <p> Planning a trip in the near future? Seeking a website for travel that helps you save money, time, and hassle? Don’t miss out on these top travel sites, which cover everything from accommodations and transportation to travel tips and deals websites.      </p>
+        </div>
+        
+        <div  >
+            <a style="text-decoration: none;color: rgb(255, 255, 255); font-size: 28px;" href="{{ geo_link }}"> <div style="background-color: red;padding-top: 4%;padding-bottom:4%; margin: 15px;">Discover More sites</div></a>
+         </div>
+
+ 
+        <div>
+            <strong>
+                <h1 style="font-size: 30px;padding-left:2%;font-family: Arial, Helvetica, sans-serif;">
+                    Best Choice based on your search</h1>
+            </strong>          
+        </div>
+ 
+        <div style="padding-top:1%;padding-bottom:1%">
+            {% for product in recommended_products %}
+            <table style="padding-left:2%;width:96%  ; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-top: 4%;"  >
+                <tr  >
+                    <td colspan="2" style="width: 50%;font-family: Arial, Helvetica, sans-serif;font-size: 18px;">
+                        <h2>{{ product.product_name }} </h2>
+                    </td>
+                    <td></td>
+                    <td rowspan="3" style="  ">
+                        <img  style="max-width: 100%;  " src="{{ product.product_photo_url }}" alt="{{ product.product_name }}">
+                    </td>
+                </tr>   
+                <tr >
+                    <td style="font-size: 20px;font-family: Arial, Helvetica, sans-serif;padding-bottom:2%;color:dimgrey">
+                        <img src="{{ product.star_rating_images }}" alt="">  {{ product.product_review_count }} reviews</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr style="margin-left: auto;margin-right:auto;text-align :center;">
+                    <td colspan="2">
+                        <a class="seedetails" href="{{ product.product_link }}" style="text-decoration:none;">
+                            <div style="font-size: 18px;margin-left: 10px;margin-right
+                            : 12px;color:brown;border: 3px;border-style: solid;border-color:brown;padding-top:5%;padding-bottom:5%;font-family: Arial, Helvetica, sans-serif;border-radius: 5px;">
+                                See Details
+                            </div>
+                        </a>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            {% endfor %}
+        </div>
+       
+         
+</div>
+
+</div>
+
+</body>
+</html>

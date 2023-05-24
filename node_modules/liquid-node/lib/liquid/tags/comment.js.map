@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "comment.js",
+  "sourceRoot": "../../..",
+  "sources": [
+    "src/liquid/tags/comment.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,YAAA;IAAA;;;EAAA,GAAA,GAAM,OAAA,CAAQ,OAAR;;EAEN,MAAM,CAAC,OAAP,GAAuB;;;;;;;sBACrB,MAAA,GAAQ,SAAA;aACN;IADM;;;;KAD6B;AAFvC"
+}

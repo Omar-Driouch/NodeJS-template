@@ -1,0 +1,49 @@
+{
+  "geo_id": "DF52",
+  "geo_name": "Best Travel sites in 2023",
+  "geo_image": "https://www.myglobalviewpoint.com/wp-content/uploads/2022/07/Best-Travel-Sites-Featured-Image-1170x792.jpg",
+  "geo_link": "https://www.myglobalviewpoint.com/best-travel-sites/",
+  "recommended_products": [
+    {
+      "product_code": "EGREWG22",
+      "product_name": "TripAdvisor",
+      "star_rating_images": "https://cdn.tripadvisor.com/img2/email/rex/ratingstar5.png",
+      "product_photo_url": "https://skift.com/wp-content/uploads/2016/12/tripadvisor-home.png",
+      "product_link": "https://www.tripadvisor.com/",
+      "product_review_count": "1563"
+    },
+    {
+      "product_code": "2916BARCELONA",
+      "product_name": "Auto Europe",
+      "star_rating_images": "https://cdn.tripadvisor.com/img2/email/rex/ratingstar4.0.png",
+      "product_photo_url": "https://www.myglobalviewpoint.com/wp-content/uploads/2022/10/Auto-Europe-Car-Rental-Site.jpg",
+      "product_link": "https://www.tkqlhce.com/click-9008759-12234004?url=https%3A%2F%2Fwww.autoeurope.com%2F",
+      "product_review_count": "8522"
+    },
+    {
+      "product_code": "5716P2",
+      "product_name": "Priceline",
+      "star_rating_images": "https://cdn.tripadvisor.com/img2/email/rex/ratingstar3.5.png",
+      "product_photo_url": "https://www.myglobalviewpoint.com/wp-content/uploads/2023/02/Priceline-vacation-package-website.jpg",
+      "product_link": "https://www.kqzyfj.com/click-9008759-11554367?url=https%3A%2F%2Fwww.priceline.com%2Fvacationpackages%2F%3Fvrid%3Dade4f4e7493e71ffc6fae866f9e70097",
+      "product_review_count": "5633"
+    },
+    {
+      "product_code": "5716P2",
+      "product_name": "Booking.com",
+      "star_rating_images": "https://cdn.tripadvisor.com/img2/email/rex/ratingstar2.png",
+      "product_photo_url": "https://lh3.googleusercontent.com/hlWr3kldFII8PAevO_vm3hnp6wowVIZIdDeh4mFYMvjxhLsjGU24jjxH2fmMi0y4Wj8YR9wf2YCleaHJRUFcONV_Ng=w640-h400-e365-rj-sc0x00ffffff",
+      "product_link": "https://www.booking.com",
+      "product_review_count": "1233"
+    },
+    {
+      "product_code": "5716P2",
+      "product_name": "Trivago",
+      "star_rating_images": "https://cdn.tripadvisor.com/img2/email/rex/ratingstar3.5.png",
+      "product_photo_url": "https://lh3.googleusercontent.com/CTSetDOlB6QzDfux4mt6xBCqe9GwVewIJqQIGmVj-6JjyMtGKRDHoN237s2esP4i-E7f8Q9y7JU8TB2sR-NlTJND=w640-h400-e365-rj-sc0x00ffffff",
+      "product_link": "https://www.trivago.com/",
+      "product_review_count": "3622"
+    }
+  ]
+ 
+}
